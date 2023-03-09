@@ -1,0 +1,70 @@
+@font-face {
+   font-family: "Montserrat";
+   src: url("/fonts/Montserrat-Regular.ttf") format("truetype")
+}
+
+body {
+   font-family: "Montserrat", Verdana, sans-serif;
+}
+
+.game-info img {
+   width: 128px;
+   height: 167px;
+}
+
+.main-home img {
+   height: auto;
+   max-width: 100%;
+}
+
+header img {
+   width: 111px;
+   height: 70px;
+}
+
+nav li {
+   display: inline-block;
+}
+
+nav li a {
+   color: #000;
+   text-decoration: none;
+   padding: 10px;
+   font-size: 1.5rem;
+}
+
+nav ul {
+   padding: 0px;
+}
+
+.main-info img {
+   width: 520px;
+   height: 327px;
+}
+
+.game-info {
+   border: 1px solid #d6d6d6;
+   border-radius: 8px;
+   display: inline-block;
+   padding: 20px;
+   margin: auto;
+}
+
+.main-home a,
+.main-secondary a {
+   background-color: #a231ca;
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.5rem;
+   padding: 10px;
+   border-radius: 8px;
+}
+
+h1, h2 {
+   font-size: 2rem;
+}
+
+#shopping-cart {
+   width: 40px;
+   height: 33px;
+}
