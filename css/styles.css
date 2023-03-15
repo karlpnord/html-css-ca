@@ -12,9 +12,13 @@ body {
    height: 167px;
 }
 
-.main-home img {
-   height: auto;
-   max-width: 100%;
+.main-home {
+   background-image: url("../images/game-console-g836463e15_1920.jpg");
+   min-height: 110vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: bottom;
+   color: white;
 }
 
 header img {
@@ -31,6 +35,10 @@ nav li a {
    text-decoration: none;
    padding: 10px;
    font-size: 1.5rem;
+}
+
+nav li a:hover {
+   text-decoration: underline;
 }
 
 nav ul {
@@ -51,7 +59,7 @@ nav ul {
 }
 
 .main-home a,
-.main-secondary a {
+.secondary-home a {
    background-color: #a231ca;
    color: #fff;
    text-decoration: none;
