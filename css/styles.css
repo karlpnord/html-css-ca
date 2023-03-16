@@ -45,6 +45,11 @@ nav ul {
    padding: 0px;
 }
 
+.active-page {
+   background-color: rgb(238, 238, 238);
+   border-radius: 10px;
+}
+
 .main-info img {
    width: 520px;
    height: 327px;
@@ -56,6 +61,11 @@ nav ul {
    display: inline-block;
    padding: 20px;
    margin: auto;
+}
+
+.game-info:hover {
+   background-color: rgb(238, 238, 238);
+   padding: 22px;
 }
 
 .cta-purple {
@@ -75,4 +85,13 @@ h1, h2 {
 #shopping-cart {
    width: 40px;
    height: 33px;
+   position: absolute;
+   right: 20px;
+   top: 80px;
+   padding: 10px;
+}
+
+#shopping-cart:hover {
+   background-color: rgb(238, 238, 238);
+   border-radius: 10px;
 }
