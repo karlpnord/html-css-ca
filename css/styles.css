@@ -10,6 +10,7 @@ body {
 .game-info img {
    width: 128px;
    height: 167px;
+   border-radius: 10px;
 }
 
 .main-home {

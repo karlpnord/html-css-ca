@@ -25,7 +25,15 @@
          <a href="index.html">Back button</a>
          <h2>Our Games</h2>
          <img src="/images/gamehublogo.png" alt="image description"/>
-         <!--Dropdown menu if possible-->
+         <form>
+            <label for="sorting">Sort by</label>
+            <select name="sorting" id="sorting">
+               <option value="" hidden></option>
+               <option value="low-high">Price low-high</option>
+               <option value="high-low">Price high-low</option>
+               <option value="alphabetical">Alphabetical</option>
+            </select>
+         </form>
       </section>
       <section>
          <div class="game-info">
