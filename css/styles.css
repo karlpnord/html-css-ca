@@ -58,14 +58,14 @@ nav ul {
    margin: auto;
 }
 
-.main-home a,
-.secondary-home a {
+.cta-purple {
    background-color: #a231ca;
    color: #fff;
    text-decoration: none;
    font-size: 1.5rem;
    padding: 10px;
    border-radius: 8px;
+   border: 0px;
 }
 
 h1, h2 {
