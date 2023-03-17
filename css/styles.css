@@ -44,17 +44,6 @@ nav ul {
    border-radius: 10px;
 }
 
-#shopping-cart {
-   width: 40px;
-   height: 33px;
-   padding: 0px;
-}
-
-#shopping-cart:hover {
-   background-color: rgb(238, 238, 238);
-   border-radius: 10px;
-}
-
 /* CTA's and etc */
 
 .cta-purple {
