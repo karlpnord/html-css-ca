@@ -1,0 +1,35 @@
+.main-home {
+   background-image: url("../images/game-console-g836463e15_1920.jpg");
+   min-height: 110vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: bottom;
+   color: white;
+   margin-bottom: 150px;
+}
+
+.main-home h1, .main-home a {
+   position: relative;
+   top: 300px;
+   left: 300px;
+}
+
+.secondary-home img {
+   width: 80%;
+}
+
+.secondary-home {
+   display: flex;
+   max-width: 80%;
+   margin: auto;
+   align-items: center;
+}
+
+.secondary-item {
+   flex: 1;
+   margin: 20px 80px;
+}
+
+.cta-purple {
+   margin-top: 20px;
+}

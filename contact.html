@@ -6,6 +6,7 @@
     <meta name="description" content="GameHub">
     <title>GameHub | Contact us</title>
     <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/styles-contact.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -21,21 +22,36 @@
       </nav>
     </header>
     <main>
-      <section class="main-info-contact">
-        <a href="index.html">Back button</a>
-        <h2>Contact Us</h2>
+      <section class="contact-container">
+        <div class="link-item">
+          <a href="index.html">Back button</a>
+        </div>
+        <div class="heading-item items">
+          <h2>Contact Us</h2>
+        </div>
       </section>
-      <section>
-        <form>
-          <h3>Personal info:</h3>
+      <form class="contact-container">
+        <div class="name-item">
           <input type="text" id="name" placeholder="Name" />
+        </div>
+        <div class="email-item">
           <input type="email" id="name" placeholder="E-mail" />
-          <textarea id="message" name="message" placeholder="Tell us about your issue or ask us a question!"></textarea>
-          <input type="submit" value="Submit Form" class="cta-purple"/>
+        </div>
+      </form>
+      <section class="contact-container2">
+        <form class="textarea-item">
+          <textarea type="text" id="message" name="message" placeholder="Tell us about your issue or ask us a question!"></textarea>
         </form>
-        <p>Or send us an email at gamehub@gmail.com</p>
-        <p>Or call us at: +47 999 99 999</p>
+        <div class="text-item">
+          <p>Or send us an email at: <span class="line-break">gamehub@gmail.com</span></p><span class="line-break"></span>
+          <p>Or call us at: <span class="line-break">+47 999 99 999</span></p>
+        </div>
       </section>
+      <div class="contact-container">
+        <div class="button-item">
+          <a href="#" class="cta-purple">Submit Form</a>
+        </div>
+      </div>
     </main>
     <footer>
       <p>&copy; 2023 GameHub</p>

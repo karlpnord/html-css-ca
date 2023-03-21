@@ -6,16 +6,18 @@
 }
 
 * {
-   margin-top: 0;
-   margin-left: 0;
-   margin-right: 0;
+   margin: 0;
 }
 
 body {
    font-family: "Montserrat", Verdana, sans-serif;
 }
 
-h1, h2 {
+h1 {
+   font-size: 2.5rem;
+}
+
+h2 {
    font-size: 2rem;
 }
 
@@ -55,83 +57,26 @@ nav ul {
    padding: 10px 40px;
    border-radius: 8px;
    border: 0px;
+   display: table;
+   text-align: center;
 }
 
 /* Header and Footer */
 
+header {
+   border-bottom: 1px solid #000;
+   display: flex;
+   align-items: center;
+}
+
 header img {
    width: 111px;
    height: 70px;
-   margin-bottom: 12px;
-}
-
-header {
-   border-bottom: 1px solid #000;
+   margin: 10px;
 }
 
 footer {
    margin-top: 100px;
+   margin-bottom: 30px;
    text-align: center;
-}
-
-/* Index.html individual styling */
-
-.main-home {
-   background-image: url("../images/game-console-g836463e15_1920.jpg");
-   min-height: 110vh;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position-y: bottom;
-   color: white;
-}
-
-.secondary-home img {
-   width: 559px;
-   height: 352px;
-}
-
-/* Games page individual styling */
-
-.game-info img {
-   width: 128px;
-   height: 167px;
-   border-radius: 10px;
-   margin-bottom: 10px;
-}
-
-.game-info:hover {
-   background-color: rgb(238, 238, 238);
-
-}
-
-.main-info-games img {
-   width: 25%;
-}
-
-.main-info-games {
-   text-align: center;
-}
-
-.game-info {
-   border: 1px solid #d6d6d6;
-   border-radius: 8px;
-   display: inline-block;
-   margin: 25px 45px;
-   text-align: center;
-   padding: 0px 20px;
-   padding-top: 30px;
-   width: 10%;
-}
-
-.product-section {
-   text-align: center;
-   display: inline-block;
-   width: 100%;
-}
-
-/* About page individual styling */
-
-.main-info-about img {
-   width: 435px;
-   height: 274px;
 }

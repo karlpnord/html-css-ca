@@ -1,0 +1,36 @@
+.game-info img {
+   width: 128px;
+   height: 167px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+.game-info:hover {
+   background-color: rgb(238, 238, 238);
+
+}
+
+.main-info-games img {
+   width: 25%;
+}
+
+.main-info-games {
+   text-align: center;
+}
+
+.game-info {
+   border: 1px solid #d6d6d6;
+   border-radius: 8px;
+   display: inline-block;
+   margin: 25px 45px;
+   text-align: center;
+   padding: 0px 20px;
+   padding-top: 30px;
+   width: 10%;
+}
+
+.product-section {
+   text-align: center;
+   display: inline-block;
+   width: 100%;
+}
