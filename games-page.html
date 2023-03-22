@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/801ba823f5.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
+   <header>
       <img src="/images/gamehublogo.png" alt="image description"/>
       <nav>
          <ul>
@@ -18,16 +18,22 @@
             <li><a href="games-page.html">Games</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact us</a></li>
-            <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
          </ul>
       </nav>
+      <div class="shopping-cart">
+        <a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
     </header>
     <main>
-      <section class="main-info-games">
-         <a href="index.html">Back button</a>
-         <h2>Our Games</h2>
-         <img src="/images/gamehublogo.png" alt="image description"/>
-         <form>
+      <div class="container">
+         <section class="main-nav items">
+            <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+            <h2>Our Games</h2>
+         </section>
+         <figure class="image-item items">
+            <img src="/images/gamehublogo.png" alt="image description"/>
+         </figure>
+         <form class="form-item items">
             <label for="sorting">Sort by</label>
             <select name="sorting" id="sorting">
                <option value="" hidden></option>
@@ -36,82 +42,74 @@
                <option value="alphabetical">Alphabetical</option>
             </select>
          </form>
-      </section>
+      </div>
+      <!--
       <section class="product-section">
          <div class="game-info">
             <img src="/images/GameHub_covers10.jpg" alt="image description"/>
             <h3>Forge Legend</h3>
             <p>MOBA</p>
-            <!--Review stars-->
             <h4>EUR €12.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers.jpg" alt="image description"/>
             <h3>Ping Pong</h3>
             <p>Sports</p>
-            <!--Review stars-->
             <h4>EUR €9.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers6.jpg" alt="image description"/>
             <h3>Space War</h3>
             <p>Action</p>
-            <!--Review stars-->
             <h4>EUR €24.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers4.jpg" alt="image description"/>
             <h3>Furious</h3>
             <p>Action</p>
-            <!--Review stars-->
             <h4>EUR €29.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers3.jpg" alt="image description"/>
             <h3>Black</h3>
             <p>Horror</p>
-            <!--Review stars-->
             <h4>EUR €12.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers5.jpg" alt="image description"/>
             <h3>Assassin</h3>
             <p>Action</p>
-            <!--Review stars-->
             <h4>EUR €39.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers9.jpg" alt="image description"/>
             <h3>Cyberpunk</h3>
             <p>Action</p>
-            <!--Review stars-->
             <h4>EUR €49.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers8.jpg" alt="image description"/>
             <h3>Boxer</h3>
             <p>Sports</p>
-            <!--Review stars-->
             <h4>EUR €14.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers7.jpg" alt="image description"/>
             <h3>Racing</h3>
             <p>Sports</p>
-            <!--Review stars-->
             <h4>EUR €3.99</h4>
          </div>
          <div class="game-info">
             <img src="/images/GameHub_covers2.jpg" alt="image description"/>
             <h3>Super Duper</h3>
             <p>Action</p>
-            <!--Review stars-->
-            <h4>EUR €4.99</h4>
+            <h4>EUR €4.99</h4> -->
          </div>
       </section>
     </main>
     <footer>
       <p>&copy; 2023 GameHub</p>
+      <p>Online Game Provider</p>
     </footer>
   </body>
 </html>

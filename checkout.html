@@ -18,52 +18,63 @@
             <li><a href="games-page.html">Games</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact us</a></li>
-            <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
          </ul>
       </nav>
+      <div class="shopping-cart">
+        <a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
     </header>
     <main>
-      <section class="main-info-checkout">
-        <a href="index.html">Back button</a>
-        <h2>Checkout</h2>
-      </section>
-      <section>
-        <form>
-          <h3>Personal Info:</h3>
-          <input type="text" id="name" placeholder="Name" />
-          <input type="email" id="email" placeholder="E-mail" />
-          <h3>Payment Info:</h3>
-          <input type="tel" id="card-number" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="16"/>
-          <select name="expiry-month" id="expiry-month">
-            <option value="" hidden>Month</option>
-            <option value="01">January</option>
-            <option value="02">February</option>
-            <option value="03">March</option>
-            <option value="04">April</option>
-            <option value="05">May</option>
-            <option value="06">June</option>
-            <option value="07">July</option>
-            <option value="08">August</option>
-            <option value="09">September</option>
-            <option value="10">October</option>
-            <option value="11">November</option>
-            <option value="12">December</option>
-          </select>
-          <select name="expiry-year" id="expiry-year">
-            <option value="" hidden>Year</option>
-            <option value="23">2023</option>
-            <option value="24">2024</option>
-            <option value="25">2025</option>
-            <option value="26">2026</option>
-            <option value="27">2027</option>
-          </select>
-          <input type="tel" id="cvc" placeholder="CVC" maxlength="3" />
-          <input type="submit" value="Pay Now" class="cta-purple"/>
-        </form>
-      </section>
+      <div class="container">
+        <section class="main-nav">
+          <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+          <h2>Checkout</h2>
+        </section>
+        <div class="container2">
+           <form class="flex-item1">
+            <h3>Personal Info:</h3>
+            <input type="text" id="name" placeholder="Name" />
+            <input type="email" id="email" placeholder="E-mail" />
+          </form> 
+          <form class="flex-item2">
+            <h3>Payment Info:</h3>
+            <input type="tel" id="card-number" placeholder="xxxx-xxxx-xxxx-xxxx" maxlength="16"/>
+            <div class="flex-item3">
+              <select name="expiry-month" id="expiry-month">
+                <option value="" hidden>Month</option>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+              <select name="expiry-year" id="expiry-year">
+                <option value="" hidden>Year</option>
+                <option value="23">2023</option>
+                <option value="24">2024</option>
+                <option value="25">2025</option>
+                <option value="26">2026</option>
+                <option value="27">2027</option>
+              </select>
+              <input type="tel" id="cvc" placeholder="CVC" maxlength="3" />
+            </div>
+          </form>
+        </div>
+        <div>
+          <a href="#" class="cta-purple">Pay Now</a>
+        </div>
+      </div>
     </main>
     <footer>
       <p>&copy; 2023 GameHub</p>
+      <p>Online Game Provider</p>
     </footer>
   </body>
 </html>

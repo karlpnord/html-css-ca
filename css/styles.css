@@ -35,6 +35,7 @@ nav li a {
    text-decoration: none;
    padding: 10px 20px;;
    font-size: 1.5rem;
+   font-weight: 600;
 }
 
 nav li a:hover {
@@ -59,9 +60,20 @@ nav ul {
    text-align: center;
 }
 
-i {
+.shopping-cart i{
+   font-size: 2.25em;
+   margin-right: 20px;
+   color: #000;
+}
+
+.main-nav i {
    color: black;
-   font-size: 1.4em;
+   font-size: 2em;
+}
+
+nav i:hover, a i:hover {
+   color: #a231ca;
+   border-radius: 4px;
 }
 
 /* Header and Footer */
@@ -70,6 +82,8 @@ header {
    border-bottom: 1px solid #000;
    display: flex;
    align-items: center;
+   width: 100%;
+   justify-content: space-between;
 }
 
 header img {
