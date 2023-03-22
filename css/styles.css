@@ -64,6 +64,11 @@ nav ul {
    text-align: center;
 }
 
+i {
+   color: black;
+   font-size: 1.4em;
+}
+
 /* Header and Footer */
 
 header {
