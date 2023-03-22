@@ -15,19 +15,22 @@
 }
 
 .secondary-home img {
-   width: 80%;
+   min-width: 300px;
+   max-width: 500px;
 }
 
 .secondary-home {
    display: flex;
-   max-width: 80%;
+   max-width: 1400px;
+   flex-flow: row wrap;
    margin: auto;
+   justify-content: center;
    align-items: center;
 }
 
 .secondary-item {
-   flex: 1;
    margin: 20px 80px;
+   font-size: 12px;
 }
 
 .cta-purple {
