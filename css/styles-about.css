@@ -1,5 +1,7 @@
-.logos img{
-   width: 70px;
+.logos i{
+   font-size: 3rem;
+   color: #a231ca;
+   padding-right: 10px;
 }
 
 #logo-image {
