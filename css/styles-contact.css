@@ -26,11 +26,6 @@ textarea[type="text"] {
    padding-left: 10px;
 }
 
-.line-break::before {
-   content: "\a";
-   white-space: pre;
-}
-
 main {
    margin: 0 20px;
 }
