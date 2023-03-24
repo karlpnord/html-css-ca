@@ -26,6 +26,7 @@
 .secondary-home {
    display: flex;
    max-width: 1400px;
+   min-height: 80vh;
    flex-wrap: wrap;
    margin: 0 auto;
    justify-content: center;
@@ -37,14 +38,18 @@
    font-size: 12px;
 }
 
+.review-background {
+   background-color: #4e4e4e;
+   padding: 40px 0;
+}
+
 .review-section {
    display: flex;
    max-width: 1400px;
    margin: 0 auto;
-   margin-bottom: 50px;
    align-items: center;
    padding: 30px 0;
-   color: #000;
+   color: #fff;
    flex-wrap: wrap;
 }
 
@@ -57,10 +62,15 @@
    font-size: 3em;
 }
 
+.review-section h3 {
+   font-family: "Toko", Verdana, sans-serif;
+   letter-spacing: 5px;
+}
+
 .review-section img {
    max-width: 200px;
    border-radius: 8px;
-   box-shadow: 1px -1px 29px 2px rgba(0,0,0,0.4);
+   box-shadow: 1px -1px 29px 2px rgba(0,0,0,0.5);
 }
 
 .review-section-item {
@@ -81,7 +91,6 @@
 
 .horizontal-line {
    border-bottom: 1px solid #000;
-   margin-bottom: 100px;
 }
 
 @media screen and (max-width: 730px) {

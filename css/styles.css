@@ -50,14 +50,24 @@ nav li a {
    padding: 10px 20px;;
    font-size: 1.5rem;
    font-weight: 600;
-}
-
-nav li a:hover {
-   text-decoration: underline;
+   display: inline-block
 }
 
 nav ul {
    padding: 0px;
+}
+
+li a::after {
+   content: '';
+   display: block;
+   height: 2px;
+   width: 0;
+   background: #fff;
+   transition: all .3s;
+}
+
+li a:hover::after {
+   width: 100%;
 }
 
 /* CTA's and etc */
@@ -73,6 +83,11 @@ nav ul {
    display: block;
    max-width: 250px;
    text-align: center;
+}
+
+.cta-purple:hover {
+   background-color: #cf4bfe;
+   transition: all .3s;
 }
 
 .shopping-cart i{
@@ -96,11 +111,13 @@ nav ul {
 .secondary-nav a:hover,
 .secondary-nav i:hover {
    color: #a231ca;
+   transition: all .3s;
 }
 
 .shopping-cart i:hover {
    color: #000;
    border-radius: 4px;
+   transition: all .5s;
 }
 
 /* Header and Footer */
