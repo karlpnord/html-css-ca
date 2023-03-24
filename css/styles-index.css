@@ -27,7 +27,7 @@
    display: flex;
    max-width: 1400px;
    flex-wrap: wrap;
-   margin: auto;
+   margin: 0 auto;
    justify-content: center;
    align-items: center;
 }
@@ -75,4 +75,19 @@
 
 .review-section-item h3 {
    font-size: 1.5em;
+}
+
+@media screen and (max-width: 730px) {
+   .secondary-item {
+      text-align: center;
+      margin: 30px auto;
+   }
+
+   .secondary-item a {
+      margin: auto;
+   }
+
+   .secondary-home {
+      margin: 100px 0;
+   }
 }

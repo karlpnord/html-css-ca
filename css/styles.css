@@ -65,7 +65,8 @@ nav ul {
    padding: 10px 40px;
    border-radius: 8px;
    border: 0px;
-   display: table;
+   display: block;
+   max-width: 250px;
    text-align: center;
 }
 
