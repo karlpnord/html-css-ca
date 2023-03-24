@@ -1,18 +1,21 @@
 .main-home {
-   background-image: url("../images/game-console-g836463e15_1920.jpg");
-   min-height: 110vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/game-console-g836463e15_1920.jpg");
+   min-height: 100vh;
+   min-height: 100dvh;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
    background-attachment: fixed;
+   background-color: #a231ca;
+   position: relative;
    color: white;
-   margin-bottom: 150px;
 }
 
 .main-home h1, .main-home a {
+   margin: 0 auto;
+   text-align: center;
    position: relative;
    top: 300px;
-   left: 300px;
 }
 
 .secondary-home img {
@@ -23,17 +26,53 @@
 .secondary-home {
    display: flex;
    max-width: 1400px;
-   flex-flow: row wrap;
+   flex-wrap: wrap;
    margin: auto;
    justify-content: center;
    align-items: center;
 }
 
 .secondary-item {
-   margin: 20px 80px;
+   margin: 150px 80px;
    font-size: 12px;
 }
 
-.cta-purple {
-   margin-top: 20px;
+.review-section {
+   display: flex;
+   max-width: 100%;
+   margin: 0 auto;
+   align-items: center;
+   background-image: linear-gradient(to right, #a231ca, #4a00e0);
+   padding: 30px 0;
+   color: white;
+   flex-wrap: wrap;
+}
+
+.review-section h2 {
+   flex-basis: 100%;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 70px;
+}
+
+.review-section img {
+   max-width: 200px;
+   border-radius: 8px;
+   border: 1px solid #000;
+}
+
+.review-section-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2em;
+   margin: 0 auto;
+   max-width: 600px;
+   font-size: 1.2em;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.review-section-item h3 {
+   font-size: 1.5em;
 }
