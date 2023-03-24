@@ -1,12 +1,12 @@
-body {
-   font-size: 1.2rem;
-}
-
 input {
    max-width: 500px;
    height: 40px;
    border-radius: 8px;
    border: 1px solid #7c7c7c;
+}
+
+main {
+   font-size: 1.2em;
 }
 
 textarea {
