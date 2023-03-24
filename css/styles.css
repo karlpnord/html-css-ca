@@ -75,12 +75,25 @@ nav ul {
    color: #1b203d;
 }
 
-.main-nav i {
-   color: black;
-   font-size: 2em;
+.secondary-nav a {
+   text-decoration: none;
+   display: flex;
+   align-items: center;
 }
 
-nav i:hover, a i:hover {
+.secondary-nav a,
+.secondary-nav i{
+   color: #000;
+   padding: 2px 10px;
+   font-size: 1.5em;
+}
+
+.secondary-nav a:hover,
+.secondary-nav i:hover {
+   color: #a231ca;
+}
+
+nav i:hover, .shopping-cart i:hover {
    color: #a231ca;
    border-radius: 4px;
 }
@@ -105,4 +118,5 @@ header img {
 footer {
    text-align: center;
    padding: 30px 0;
+   border-top: 1px solid #000;
 }
