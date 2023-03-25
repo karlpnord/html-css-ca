@@ -58,6 +58,11 @@ main {
    display: block;
 }
 
+.cta-black:hover {
+   background-color: #777777;
+   transition: all .3s;
+}
+
 .close-button {
    max-width: 30px;
 }
