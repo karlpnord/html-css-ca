@@ -1,16 +1,10 @@
 input {
-   max-width: 500px;
    height: 40px;
    border-radius: 8px;
    border: 1px solid #7c7c7c;
 }
 
-main {
-   font-size: 1.2em;
-}
-
 textarea {
-   max-width: 600px;
    height: 200px;
    border-radius: 8px;
    border: 1px solid #7c7c7c;
@@ -30,21 +24,51 @@ textarea[type="text"] {
    padding-left: 10px;
 }
 
+main {
+   display: grid;
+   place-items: center;
+   align-content: center;
+   gap: 3rem;
+   margin-top: 40px;
+   margin-bottom: 60px;
+}
+
 .grid-container {
+   max-width: 46rem;
    display: grid;
-   max-width: 700px;
-   margin: 40px auto;
-   grid-template-rows: repeat(4, auto);
+   grid-template-rows: 1fr 1fr;
+   border-radius: 2rem;
+   overflow: hidden;
+   box-shadow: 1px -1px 29px 2px rgba(0,0,0,0.5);
 }
 
-.grid-item {
-   padding: 20px;
-}
-
-.form-grid {
+.personal-details {
+   text-align: center;
+   font-size: 1.5rem;
+   background-image: linear-gradient(to right, #a231ca, #4a00e0);
+   color: #fff;
+   padding: 2.5rem;
    display: grid;
+   align-content: center;
+   gap: 1rem;
 }
 
-.form-grid > * {
-   margin: 10px 0;
+.personal-details img {
+   max-width: 200px;
+   margin-top: 30px;
+}
+
+.message-details {
+   padding: 2.5rem;
+   display: grid;
+   align-content: center;
+   font-size: 1.5rem;
+   gap: 1rem;
+}
+
+@media screen and (min-width: 730px) {
+   .grid-container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+   }
 }
