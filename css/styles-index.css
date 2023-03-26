@@ -1,32 +1,22 @@
-html {
-   overflow-x: hidden;
-}
-main {
-   padding-left: 10px;
-   padding-right: 10px;
-}
-
 .main-home {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/gameconsolemobiledevice.jpg");
-   min-height: 100vh;
-   min-height: 100dvh;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-attachment: fixed;
-   background-color: #a231ca;
+   background-color: #fff;
    position: relative;
-   color: white;
+   color: #000;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
    max-width: 100%;
+   max-height: 60vh;
+}
+
+.main-home h1,
+.secondary-home h2 {
+   font-size: 1.5rem;
 }
 
 .secondary-home img {
-   min-width: 250px;
-   max-width: 500px;
+   max-width: 250px;
    margin-top: 50px;
 }
 
@@ -36,12 +26,13 @@ main {
    max-width: 1000px;
    min-height: 80vh;
    margin: 0 auto;
+   justify-content: center;
    text-align: center;
    align-items: center;
 }
 
 .secondary-item {
-   margin: 20px 80px;
+   margin: 0px 80px;
    font-size: 12px;
    display: flex;
    flex-direction: column;
@@ -107,5 +98,12 @@ main {
 @media screen and (min-width: 730px) {
    .main-home {
       background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/game-console-g836463e15_1920.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      color: #fff;
+      min-height: 100vh;
+      min-height: 100dvh;
    }
 }
