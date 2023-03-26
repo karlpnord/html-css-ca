@@ -54,6 +54,7 @@ select {
    padding: 20px;
    border: 1px solid #c4c4c4;
    border-radius: 10px;
+   transition: linear .3s;
 }
 
 .games-item a {
@@ -64,6 +65,7 @@ select {
 .games-item:hover {
    box-shadow: 0 0.5em 0.5em -0.4em #000;
    transform: translateY(-0.25em);
+   transition: linear .3s;
 }
 
 @media screen and (max-width: 730px) {

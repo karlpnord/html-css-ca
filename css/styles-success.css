@@ -44,11 +44,13 @@ main {
    background-color: #a231ca;
    color: #fff;
    border-radius: 8px 0 0 8px;
+   transition: all .3s;
 }
 
 .cta-white {
    color: #000;
    border-radius: 0 8px 8px 0;
+   transition: all .3s;
 }
 
 .cta-purple2:hover {
