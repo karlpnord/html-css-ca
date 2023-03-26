@@ -1,3 +1,11 @@
+html {
+   overflow-x: hidden;
+}
+main {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
 .main-home {
    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/gameconsolemobiledevice.jpg");
    min-height: 100vh;
@@ -13,6 +21,7 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   max-width: 100%;
 }
 
 .secondary-home img {
