@@ -1,5 +1,5 @@
 .main-home {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/game-console-g836463e15_1920.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/gameconsolemobiledevice.jpg");
    min-height: 100vh;
    min-height: 100dvh;
    background-size: cover;
@@ -9,33 +9,34 @@
    background-color: #a231ca;
    position: relative;
    color: white;
-}
-
-.main-home h1, .main-home a {
-   margin: 0 auto;
-   text-align: center;
-   position: relative;
-   top: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 }
 
 .secondary-home img {
-   min-width: 300px;
+   min-width: 250px;
    max-width: 500px;
+   margin-top: 50px;
 }
 
 .secondary-home {
    display: flex;
-   max-width: 1400px;
+   flex-direction: column;
+   max-width: 1000px;
    min-height: 80vh;
-   flex-wrap: wrap;
    margin: 0 auto;
-   justify-content: center;
+   text-align: center;
    align-items: center;
 }
 
 .secondary-item {
-   margin: 150px 80px;
+   margin: 20px 80px;
    font-size: 12px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .review-background {
@@ -83,6 +84,7 @@
    font-size: 1.2em;
    text-align: center;
    margin-bottom: 30px;
+   margin-inline: 85px;
 }
 
 .review-section-item h3 {
@@ -93,17 +95,8 @@
    border-bottom: 1px solid #000;
 }
 
-@media screen and (max-width: 730px) {
-   .secondary-item {
-      text-align: center;
-      margin: 30px auto;
-   }
-
-   .secondary-item a {
-      margin: auto;
-   }
-
-   .secondary-home {
-      margin: 100px 0;
+@media screen and (min-width: 730px) {
+   .main-home {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/game-console-g836463e15_1920.jpg");
    }
 }
