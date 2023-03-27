@@ -83,10 +83,15 @@ header img {
 nav {
    position: absolute;
    z-index: 2;
-   background-image: linear-gradient(to right, #a231ca, #4a00e0);
    top: 70px;
    width: 100%;
    text-align: center;
+}
+
+nav ul {
+   background-image: linear-gradient(to right, #a231ca, #4a00e0);
+   border-top: 1px solid #fff;
+   border-bottom: 1px solid #fff;
 }
 
 nav li {
@@ -98,9 +103,15 @@ nav li a {
    color: #fff;
    text-decoration: none;
    font-size: 2rem;
+   transition: linear .3s;
 }
 
-@media (min-width: 600px) {
+nav li a:hover {
+   color: #000;
+   transition: linear .3s;
+}
+
+@media (min-width: 730px) {
    nav,
    header img {
       display: initial;
@@ -116,15 +127,18 @@ nav li a {
       display: none;
    }
 
-   ul {
+   nav ul {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 2em;
+      border-top: 0;
+      border-bottom: 0;
+      background-image: none;
    }
 
    .shopping-cart{
-      margin-right: 40px;
+      margin: 0 40px;
    }
 }
 
@@ -173,7 +187,7 @@ nav li a {
 
 .secondary-nav:hover {
    box-shadow: 0 0.5em 0.5em -0.4em #000;
-   transform: translateY(-0.25em);
+   transform: translateY(-0.35em);
    transition: linear .3s;
    border-radius: 2rem;
 }
