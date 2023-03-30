@@ -36,6 +36,7 @@ main {
 
 .grid-container {
    max-width: 46rem;
+   margin: 0 20px;
    display: grid;
    grid-template-rows: 1fr 1fr;
    border-radius: 2rem;
