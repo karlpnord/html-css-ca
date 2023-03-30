@@ -87,11 +87,11 @@
    align-items: center;
    gap: 2em;
    margin: 0 auto;
-   max-width: 600px;
-   font-size: 1.2em;
+   max-width: 500px;
+   font-size: 1em;
    text-align: center;
    margin-bottom: 30px;
-   margin-inline: 85px;
+   margin-inline: 40px;
 }
 
 .review-section-item h3 {
@@ -99,15 +99,17 @@
    text-transform: uppercase;
 }
 
-.horizontal-line {
-   border-bottom: 1px solid #000;
-}
-
-@media screen and (min-width: 730px) {
+@media (min-width: 900px) {
    .main-home {
       background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/game-console-g836463e15_1920.jpg");
    }
 
+   .review-section-item {
+      font-size: 1.2em;
+   }
+}
+
+@media (min-width: 1200px) {
    .secondary-home {
       flex-direction: row;
       max-width: 1200px;
@@ -117,17 +119,17 @@
       max-width: 350px;
    }
 
-   .main-home h1,
-   .secondary-home h2 {
-      font-size: 2rem;
-   }
-
    .secondary-item {
       text-align: left;
       align-items: flex-start;
    }
 
+   .main-home h1,
+   .secondary-home h2 {
+      font-size: 2rem;
+   }
+
    .review-section-item {
-      margin-inline: 0;
+      margin-inline: 50px;
    }
 }
