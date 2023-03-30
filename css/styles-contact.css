@@ -69,8 +69,12 @@ main {
    padding: 2.5rem;
    display: grid;
    align-content: center;
-   font-size: 1em;
+   font-size: 0.75em;
    gap: 1rem;
+}
+
+.message-details h3 {
+   font-size: 1.5rem;
 }
 
 @media (min-width: 730px) {
