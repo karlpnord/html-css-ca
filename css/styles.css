@@ -111,37 +111,6 @@ nav li a:hover {
    transition: linear .3s;
 }
 
-@media (min-width: 730px) {
-   nav,
-   header img {
-      display: initial;
-   }
-
-   nav {
-      position: static;
-      background-image: none;
-   }
-
-   header label,
-   header h2 {
-      display: none;
-   }
-
-   nav ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 2em;
-      border-top: 0;
-      border-bottom: 0;
-      background-image: none;
-   }
-
-   .shopping-cart{
-      margin: 0 40px;
-   }
-}
-
 /* CTA's and etc */
 
 .cta-purple {
@@ -250,4 +219,37 @@ footer {
    font-weight: 600;
    background-image: linear-gradient(to right, #a231ca, #4a00e0);
    color: white;
+}
+
+/* Responsive */
+
+@media (min-width: 730px) {
+   nav,
+   header img {
+      display: initial;
+   }
+
+   nav {
+      position: static;
+      background-image: none;
+   }
+
+   header label,
+   header h2 {
+      display: none;
+   }
+
+   nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2em;
+      border-top: 0;
+      border-bottom: 0;
+      background-image: none;
+   }
+
+   .shopping-cart{
+      margin: 0 40px;
+   }
 }

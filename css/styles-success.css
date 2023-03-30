@@ -4,15 +4,15 @@ main {
    flex-direction: column;
    gap: 2em;
    min-width: 100vh;
-   justify-content: center;
    align-items: center;
-   margin: 10px auto; 
+   justify-content: flex-start;
+   margin: 0 auto;
 }
 
 .article-item {
-   max-width: 550px;
    padding: 20px;
-   font-size: 1.35em;
+   max-width: 300px;
+   font-size: 1em;
    display: flex;
    flex-direction: column; 
 }
@@ -27,29 +27,28 @@ main {
 
 .button-item {
    display: flex;
+   flex-direction: column;
 }
 
 .cta {
    padding: 10px 50px;
    margin: auto 0;
-   font-size: 1.5em;
+   font-size: 1em;
    font-weight: 600;
-}
-
-.cta {
    text-decoration: none;
+   max-width: 300px;
 }
 
 .cta-purple2 {
    background-color: #a231ca;
    color: #fff;
-   border-radius: 8px 0 0 8px;
+   border-radius: 8px;
    transition: all .3s;
 }
 
 .cta-white {
    color: #000;
-   border-radius: 0 8px 8px 0;
+   border-radius: 8px;
    transition: all .3s;
 }
 
