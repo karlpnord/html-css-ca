@@ -1,4 +1,4 @@
-.container {
+main {
    text-align: center;
    display: flex;
    flex-direction: column;
@@ -62,4 +62,21 @@
 .cta-white:hover {
    background-color: #c4c4c4;
    transition: all .3s;
+}
+
+/* Responsive */
+
+@media (min-width: 730px) {
+   .button-item {
+      flex-direction: row;
+      gap: 0;
+   }
+
+   .cta-purple2 {
+      border-radius: 8px 0 0 8px;
+   }
+
+   .cta-white {
+      border-radius: 0 8px 8px 0;
+   }
 }
