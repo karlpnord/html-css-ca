@@ -63,6 +63,7 @@ main {
 
 .product-item a i:hover {
    color: #a231ca;
+   transform: translateY(-0.075em);
    transition: linear .3s;
 }
 

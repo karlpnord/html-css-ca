@@ -78,6 +78,11 @@ select {
    letter-spacing: 1px;
    font-size: 1.5em;
    margin-top: 15px;
+   text-transform: uppercase;
+}
+
+.gameinfo h5 {
+   margin-bottom: 5px;
 }
 
 @media (max-width: 1200px) {

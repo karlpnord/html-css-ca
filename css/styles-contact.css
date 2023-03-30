@@ -8,6 +8,8 @@ textarea {
    height: 200px;
    border-radius: 8px;
    border: 1px solid #000;
+   overflow-y: scroll;
+   resize: none;
 }
 
 input::placeholder,
@@ -42,7 +44,6 @@ main {
 }
 
 .personal-details {
-   text-align: center;
    font-size: 1.5rem;
    background-color: #a231ca;
    color: #fff;
@@ -57,17 +58,28 @@ main {
    margin-top: 30px;
 }
 
+.image-item {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
 .message-details {
    padding: 2.5rem;
    display: grid;
    align-content: center;
-   font-size: 1.5rem;
+   font-size: 1.25rem;
    gap: 1rem;
 }
 
-@media screen and (min-width: 730px) {
+@media (min-width: 730px) {
    .grid-container {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
+   }
+
+   .personal-details {
+      text-align: left;
+      align-content: flex-start;
    }
 }

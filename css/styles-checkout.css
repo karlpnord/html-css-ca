@@ -48,7 +48,6 @@ main {
 }
 
 .personal-details {
-   text-align: center;
    font-size: 1.5rem;
    background-color: #a231ca;
    color: #fff;
@@ -61,6 +60,11 @@ main {
 .personal-details img {
    max-width: 200px;
    margin-top: 30px;
+}
+
+.image-item {
+   display: flex;
+   justify-content: center;
 }
 
 .payment-details {
